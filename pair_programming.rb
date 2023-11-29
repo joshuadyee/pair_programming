@@ -9,3 +9,11 @@ foods_list = []
 end
 
 p foods_list
+
+
+# 2. Now, instead of printing out the array, output 5 separate lines of each food, with the prefix, “I love”. For example:
+
+
+foods_list.each do |food|
+  puts "I love #{food}"
+end
